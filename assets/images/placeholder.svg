@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#16223b"/>
+    </linearGradient>
+    <linearGradient id="pacc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#pbg)"/>
+  <circle cx="600" cy="310" r="140" fill="#6366f1" opacity="0.12"/>
+  <rect x="420" y="210" width="360" height="210" rx="16" fill="#131c33" stroke="#243457" stroke-width="2"/>
+  <rect x="420" y="210" width="360" height="38" rx="16" fill="#0f172a"/>
+  <circle cx="445" cy="229" r="5" fill="#ef4444"/>
+  <circle cx="462" cy="229" r="5" fill="#f59e0b"/>
+  <circle cx="479" cy="229" r="5" fill="#10b981"/>
+  <rect x="450" y="275" width="140" height="14" rx="4" fill="url(#pacc)"/>
+  <rect x="450" y="305" width="300" height="8" rx="4" fill="#334155"/>
+  <rect x="450" y="325" width="260" height="8" rx="4" fill="#334155"/>
+  <rect x="450" y="345" width="200" height="8" rx="4" fill="#334155"/>
+  <rect x="450" y="375" width="80" height="24" rx="6" fill="#6366f1"/>
+  <text x="600" y="490" text-anchor="middle" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" font-weight="600" letter-spacing="1">PROJECT SHOWCASE PREVIEW</text>
+</svg>

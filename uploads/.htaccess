@@ -1,0 +1,10 @@
+# Prevent execution of any scripts in the uploads directory
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|php8|phps|phar|cgi|pl|exe|sh)$">
+    Require all denied
+</FilesMatch>
+
+# Enforce default static file handler
+SetHandler default-handler
+
+# Prevent directory browsing
+Options -Indexes -ExecCGI
